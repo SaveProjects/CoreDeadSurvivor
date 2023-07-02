@@ -1,0 +1,122 @@
+#
+# Fichier configuration de jeux par Edmine Network.
+# Dev: N12cf
+# Version: 0.1
+#
+
+#Gestion des timers du jeu.
+Timers:
+  start: 30
+  startFull: 10
+  game: 600
+  pendul: 45
+  reactor: 90
+  revive1: 4
+  revive2: 15
+#Gestion des skin du jeu.
+Skin:
+  JasonVorhees:
+    id: 
+#Gestion des cartes du jeu.
+Cartes:
+  House:
+    specSpawn:
+      x: -126.5
+      y: 20.0
+      z: 261.5
+      f: 89.6
+      p: 21.2
+    killerSpawn:
+      x: -154.5
+      y: 5.0
+      z: 261.5
+      f: -90.3
+      p: 2.7
+    survivorSpawn:
+      x: -132.5
+      y: 4.0
+      z: 194.5
+      f: 0.3
+      p: 0.4
+    portal1:
+      a:
+        x: -112.0
+        y: 4.0
+        z: 298.0
+      b:
+        x: -107.0
+        y: 9.0
+        z: 300.0
+      spawn:
+        x: -109.5
+        y: 4.0
+        z: 293.5
+        f: 0.1
+        p: 1.3
+    portal2:
+      a:
+        x: -131.0
+        y: 4.0
+        z: 190.0
+      b:
+        x: -136.0
+        y: 9.0
+        z: 188.0
+      spawn:
+        x: -132.5
+        y: 4.0
+        z: 194.5
+        f: 179.1
+        p: -2.4
+    pendul1:
+      x: -93.5
+      y: 8.0
+      z: 254.5
+      f: 89.4
+      p: 32.1
+    pendul2:
+      x: -177.5
+      y: 5.0
+      z: 247.5
+      f: -90.1
+      p: 30.1
+    pendul3:
+      x: -159.5
+      y: 6.0
+      z: 296.5
+      f: 180.0
+      p: 39.4
+    pendul4:
+      x: -154.5
+      y: 1.2
+      z: 257.5
+      f: 90.5
+      p: 24.6
+    reactor1:
+      x: -169.9
+      y: 6
+      z: 292.9
+    reactor2:
+      x: -127.9
+      y: 6.0
+      z: 288.9
+    reactor3:
+      x: -79.9
+      y: 6.0
+      z: 279.9
+    reactor4:
+      x: -107.9
+      y: 5.0
+      z: 219.0
+    reactor5:
+      x: -121.0
+      y: 6.0
+      z: 228.0
+    reactor6:
+      x: -180.0
+      y: 6.0
+      z: 215.9
+    reactor7:
+      x: -154.0
+      y: 11.0
+      z: 265.0

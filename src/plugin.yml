@@ -1,0 +1,7 @@
+name: CoreDeadSurvivor
+version: 0.1
+author: EdmineCoreTeam
+main: fr.edminecoreteam.core.Core
+commands:
+  game:
+    description: Commande admin
