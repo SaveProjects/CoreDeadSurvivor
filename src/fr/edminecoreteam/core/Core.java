@@ -155,7 +155,7 @@ public class Core extends JavaPlugin implements PluginMessageListener
     
     private void MySQLConnect() {
         Core.instance = this;
-        (this.database = new MySQL("jdbc:mysql://", "45.140.165.235", "22728-database", "22728-database", "S5bV5su4p9")).connexion();
+        (this.database = new MySQL("jdbc:mysql://", this.getConfig().getString("mysql.host"), this.getConfig().getString("mysql.database"), this.getConfig().getString("mysql.user"), this.getConfig().getString("mysql.password"))).connexion();
         database.creatingTableDeadSurvivor();
     }
     

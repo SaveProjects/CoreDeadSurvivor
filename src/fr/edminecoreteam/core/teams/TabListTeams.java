@@ -36,7 +36,7 @@ public class TabListTeams implements Listener
 	        	}
 	        	else if (core.isState(State.INGAME))
 	        	{
-	        		TeamsTagsManager.setNameTag(p, "§7§k", "§7§k", "§7§k");
+	        		TeamsTagsManager.setNameTag(p, Teams.powerToTeam(1).getOrderTeam(), Teams.powerToTeam(1).getDisplayName(), Teams.powerToTeam(1).getSuffix());
 	        	}
 		        
 		        ++t;
@@ -44,7 +44,7 @@ public class TabListTeams implements Listener
                     run();
                 }
             }
-        }.runTaskTimer((Plugin)core, 0L, 50L);
+        }.runTaskTimer((Plugin)core, 0L, 10L);
 
 	}
 }

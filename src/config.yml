@@ -4,6 +4,13 @@
 # Version: 0.1
 #
 
+# MySQL.
+mysql:
+  host: 'ip'
+  database: 'database'
+  user: 'user'
+  password: 'pass'
+
 #Gestion des timers du jeu.
 Timers:
   start: 30

@@ -1134,9 +1134,9 @@ public class InteractionGames implements Listener
 	    String progressBarString = "§a";
 	    for (int i = 0; i < 10; i++) {
 	        if (i < progressBars) {
-	            progressBarString += "▌";
+	            progressBarString += "⬛";
 	        } else {
-	            progressBarString += "§7▒";
+	            progressBarString += "§7⬛";
 	        }
 	    }
 	    String actionBarMessage = message + " " + progressBarString + " §7(" + current + "/" + max + ")";

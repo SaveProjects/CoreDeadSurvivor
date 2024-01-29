@@ -21,6 +21,8 @@ import fr.edminecoreteam.core.utils.ItemStackSerializer;
 import fr.edminecoreteam.core.utils.MessageUtils;
 import fr.edminecoreteam.core.utils.SkullNBT;
 
+import java.util.Random;
+
 public class Instance implements Listener
 {
 	
@@ -317,8 +319,10 @@ public class Instance implements Listener
 	
 	public static void defineRole()
 	{
-        String killerName = core.getSurvivors().get(0);
-        core.getSurvivors().remove(0);
+		Random random = new Random();
+		int killerPosition = random.nextInt(core.getSurvivors().size());
+		String killerName = core.getSurvivors().get(killerPosition);
+        core.getSurvivors().remove(killerPosition);
         core.getKiller().add(killerName);
 	}
 	
